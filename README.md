@@ -19,3 +19,8 @@ Remove the configuration files for your desktop environment in your home directo
 
 # rm -rf ~/.config ~/.cache ~/.local
 Log out and log back in. This will regenerate default configuration files.
+
+
+In windows powersell venv not works then use
+# Set-ExecutionPolicy RemoteSigned
+in powersell admister
